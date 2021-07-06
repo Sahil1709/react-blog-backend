@@ -39,7 +39,7 @@ app.post("/server/upload", upload.single("file"), (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello world");
+  res.send("WELCOME TO BLOGSITE API");
 });
 
 app.use("/server/auth", authRoute);
